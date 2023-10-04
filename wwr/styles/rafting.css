@@ -50,7 +50,7 @@ body {
 /* Positioning and styling for h1 heading */
 h1 {
   position: absolute;
-  top: 20%; 
+  top: 10%; 
   left: 10px; 
   font-size: 2.5rem;
   z-index: 1; 
@@ -59,9 +59,9 @@ h1 {
 /* Positioning and styling for the article */
 article {
   position: absolute;
-  top: 50%; 
-  left: 10px;
-  width: 40%;
+  top: 5%; 
+  right: 20px;
+  width: 20%;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   z-index: 1; /* Ensure the article is on top of the hero image */
@@ -69,6 +69,8 @@ article {
 
 /* Styling for the image inside the article */
 article img {
-  float: right;
-  margin: 0 0 10px 10px;
+    /* position: relative; */
+    float: right;
+    margin: 0px 0 0px 0px;
+    /* z-index: 2; */
 }
