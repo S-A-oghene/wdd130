@@ -1,4 +1,3 @@
-/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Roboto&display=swap');
 
 /* Define CSS variables for color scheme */
@@ -51,19 +50,19 @@ body {
 /* Positioning and styling for h1 heading */
 h1 {
   position: absolute;
-  top: 20%; /* Adjust the top position as needed */
-  left: 10px; /* Adjust the left position as needed */
+  top: 20%; 
+  left: 10px; 
   font-size: 2.5rem;
-  z-index: 1; /* Ensure the h1 is on top of the article */
+  z-index: 1; 
 }
 
 /* Positioning and styling for the article */
 article {
   position: absolute;
-  top: 50%; /* Adjust the top position as needed */
-  left: 10px; /* Adjust the left position as needed */
-  width: 40%; /* Adjust the width as needed */
-  background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
+  top: 50%; 
+  left: 10px;
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   z-index: 1; /* Ensure the article is on top of the hero image */
 }
@@ -71,5 +70,5 @@ article {
 /* Styling for the image inside the article */
 article img {
   float: right;
-  margin: 0 0 10px 10px; /* Adjust margins as needed */
+  margin: 0 0 10px 10px;
 }
