@@ -20,13 +20,14 @@ header, main, footer {
 
 header {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    max-width: 1000px;
     margin:  1rem auto;
     background-color: #FF851B;
-    border: 1px solid gray;
     padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .logo {
@@ -49,18 +50,21 @@ nav a {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     text-decoration: none;
     background-color:burlywood;
-    
 }
 
 .hero{
     position: relative;
     margin: 1rem;
+    
 }
 
 .hero img {
     width: 100%;
     height: auto; /*change to 100 later*/
     object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .hero article {
@@ -69,12 +73,13 @@ nav a {
     left:  5px;
     margin: 20px;
     font-size:large;
-    border: 1px solid #000;
     padding: 10px;
     background-color: #0074D9;
     color: #fff;
     opacity: .8;
-
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .hero h1 {
@@ -126,6 +131,8 @@ nav a {
     height: auto;
     display: block;
     border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   }
   
   .adventures figcaption {
